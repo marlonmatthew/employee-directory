@@ -1,10 +1,10 @@
 import React from "react";
-import Data from "../Data/index.js";
+import Users from "../Users/index.js";
 
 function Main() {
   return (
     <>
-      <Data />
+      <Users />
     </>
   );
 }
