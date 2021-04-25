@@ -15,7 +15,7 @@ const FilterNames = () => {
           onChange={(e) => context.filterChange(e)}
         />
       </form>
-      <p>Click on Name column to arrange alphabetically.</p>
+      <p>Click on Name column header to arrange alphabetically.</p>
     </div>
   );
 };

@@ -13,16 +13,16 @@ const UsersBody = () => {
           ({ login, name, picture, phone, email, location }) => {
             return (
               <tr key={login.uuid}>
-                <td data-th="Image">
-                  <img src={picture.thumbnail} />
-                </td>
-                <td data-th="Username">{login.username}</td>
-                <td data-th="Name" className="sorting">
+                <td className="sorting">
                   {name.first} {name.last}
                 </td>
-                <td data-th="Phone">{phone}</td>
-                <td data-th="Email">{email}</td>
-                <td data-th="Location">
+                <td>{login.username}</td>
+                <td>
+                  <img src={picture.thumbnail} />
+                </td>
+                <td>{phone}</td>
+                <td>{email}</td>
+                <td>
                   {location.city}, {location.state}
                 </td>
               </tr>

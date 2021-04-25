@@ -11,12 +11,12 @@ const Users = () => {
     order: "ascend",
     filteredUsers: [],
     headings: [
-      { name: "Image", width: "10%" },
-      { name: "Username", width: "10%" },
-      { name: "Name", width: "10%" },
-      { name: "Phone", width: "10%" },
+      { name: "Name", width: "7%" },
+      { name: "Username", width: "7%" },
+      { name: "Image", width: "1%" },
+      { name: "Phone", width: "3%" },
       { name: "Email", width: "10%" },
-      { name: "Location", width: "10%" },
+      { name: "Location", width: "7%" },
     ],
   });
 
