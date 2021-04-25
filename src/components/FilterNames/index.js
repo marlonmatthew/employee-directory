@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import UsersContext from "../../utils/UsersContext";
-import "./FilterNames.css";
 
 const FilterNames = () => {
   const context = useContext(UsersContext);
