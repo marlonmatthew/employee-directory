@@ -15,7 +15,7 @@ const Users = () => {
       { name: "Username", width: "7%" },
       { name: "Image", width: "1%" },
       { name: "Phone", width: "3%" },
-      { name: "Email", width: "10%" },
+      { name: "Email", width: "7%" },
       { name: "Location", width: "7%" },
     ],
   });
